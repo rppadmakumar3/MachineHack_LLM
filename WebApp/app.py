@@ -7,7 +7,7 @@ pipe = pipeline("question-answering", model="sivapriyakumar16/machinehack_update
 
 # Set the title and description of your app
 st.title("Question Answering Web App")
-st.write("This app uses Hugging Face's Transformers to answer questions using the sivapriyakumar16/machinehack_updated model.")
+st.write("QA Bot: Get instant answers to your queries.")
 
 # Create a text input box for user input
 question = st.text_input("Ask a question:", "")
