@@ -1,5 +1,6 @@
 import streamlit as st
 from transformers import pipeline
+import torch
 
 # Load the Hugging Face question-answering pipeline
 pipe = pipeline("question-answering", model="sivapriyakumar16/machinehack_updated")
